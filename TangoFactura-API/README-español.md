@@ -2,16 +2,16 @@
 
 [Tango factura](http://www.tangofactura.com) ha desarrollado servicios WEB que proveen a terceros de una forma simple de interactuar con los datos y la funcionalidad del sistema.
 
-Si quiere crear aplicaciones que necesiten de emitir comprobantes electronicos; esta es su mejor opcion para obtener exactamente eso, e incorporarlo a su proyecto.
+Si queres crear aplicaciones que necesiten de emitir comprobantes electronicos; esta es tu mejor opcion para obtenerlo e incorporarlo a tu proyecto.
 
-Agregue, sin esfuerzo, el modulo de facturacion a su sistema gracias a las API de integracion que se exponen en esta guia.
+Agrega, sin esfuerzo, el modulo de facturacion a tu sistema gracias a las API de integracion que se exponen en esta guia.
 
 ## Comenzando 🚀
 
-Para comenzar a registar sus aplicaciones, siga los siguientes pasos:
+Para comenzar a registar tus aplicaciones, segui los siguientes pasos:
 
-1.  Registrese en [Tango Factura](http://www.tangofactura.com).
-2.  Crea tu aplicacion a traves del siguiente [link](https://www.tangofactura.com/PGR/Aplicaciones)
+1. Registrate en [Tango Factura](http://www.tangofactura.com).
+2. Crea tu aplicacion a traves del siguiente [link](https://www.tangofactura.com/PGR/Aplicaciones) (O segui los pasos de nuestra [Guia para creacion de aplicaciones]())
 3.
 4.
 
