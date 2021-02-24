@@ -1,6 +1,8 @@
-# TangoFactura API
+# Tango Factura API
 
-Tango factura ha desarrollado servicios web que provee a terceros una forma simple de interactuar con los datos y la funcionalidad del sistema. ¿Crea aplicaciones que necesitan emitir comprobantes electrónicos? Entonces Tango factura Services es la mejor forma de obtener exactamente lo que necesita para su próximo y exigente proyecto. Agregá el módulo de facturación a tu sistema sin mayores esfuerzos gracias a las API de integración que expone Tango factura.
+[Tango factura](www.tangofactura.com) ha desarrollado servicios WEB que proveen a terceros de una forma simple de interactuar con los datos y la funcionalidad del sistema.
+Si quiere crear aplicaciones que necesiten de emitir comprobantes electronicos; esta es su mejor opcion para obtener exactamente eso, e incorporarlo a su proyecto.
+Agregue, sin esfuerzo, el modulo de facturacion a su sistema gracias a las API de integracion que se exponen en esta guia.
 
 ## Comenzando 🚀
 
