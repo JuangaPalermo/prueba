@@ -22,14 +22,11 @@ Agrega, sin esfuerzo, el modulo de facturacion a tu sistema gracias a las API de
 
 Para comenzar a registar tus aplicaciones, segui los siguientes pasos:
 
-<p>
-1.Registrate en [Tango Factrura](http://www.tangofactura.com).
-<br>
+<ol>
+<li>Registrate en <a href="http://www.tangofactura.com">Tango Factrura</a></li>
+<li>Crea tu aplicacion a traves del siguiente <a href="https://www.tangofactura.com/PGR/Aplicaciones">link</a> (O segui los pasos de nuestra <a href="./Guias/CreacionDeAplicaciones.md">Guia para creacion de aplicaciones</a>)</li>   
+</ol>
 
-2.Crea tu aplicacion a traves del siguiente [link](https://www.tangofactura.com/PGR/Aplicaciones) (O segui los pasos de nuestra [Guia para creacion de aplicaciones](./Guias/CreacionDeAplicaciones.md)).
-<br>
-
-</p>
 Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
