@@ -6,7 +6,7 @@ Tango factura ha desarrollado servicios web que provee a terceros una forma simp
 
 Para comenzar a registar sus aplicaciones, siga los siguientes pasos:
 
-1.  Registrese en www.tangofactura.com
+1.  Registrese en [Tango Factura](www.tangofactura.com).
 2.  ![App Installation](../imagenes/carta.jpg)
 3.
 4.
