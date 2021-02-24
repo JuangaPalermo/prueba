@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href=https://www.tangofactura.com/Help>
-    <img src="/Imagenes/logo.jpg" alt="Tango Factura Developers" width="230"></a>
+    <img src="/Imagenes/logo.jpg" alt="Tango Factura Developers" width="300"></a>
   </a>
   <br>
   Tango Factura API
