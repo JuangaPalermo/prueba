@@ -6,4 +6,4 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
 
 ## 1. Crear nueva aplicacion
 
-1. Dentro del menu superior, selecciona el boton !["NUEVO"](./imagenes/btnNuevo.png), y se abrira el siguiente
+1. Dentro del menu superior, selecciona el boton (./imagenes/btnNuevo.png), y se abrira el siguiente
