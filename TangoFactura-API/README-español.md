@@ -1,6 +1,6 @@
 # Tango Factura API
 
-[Tango factura](www.tangofactura.com) ha desarrollado servicios WEB que proveen a terceros de una forma simple de interactuar con los datos y la funcionalidad del sistema.
+[Tango factura](http://www.tangofactura.com) ha desarrollado servicios WEB que proveen a terceros de una forma simple de interactuar con los datos y la funcionalidad del sistema.
 
 Si quiere crear aplicaciones que necesiten de emitir comprobantes electronicos; esta es su mejor opcion para obtener exactamente eso, e incorporarlo a su proyecto.
 
