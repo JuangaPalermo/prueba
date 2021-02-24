@@ -7,20 +7,26 @@
   <br>
 </h1>
 
+<h4 align="center">Esta es la documentacion oficial de la API de Tango Factura</h4>
+
+<a name="introduccion"></a>
 [Tango factura](http://www.tangofactura.com) ha desarrollado servicios WEB que proveen a terceros de una forma simple de interactuar con los datos y la funcionalidad del sistema.
 
 Si queres crear aplicaciones que necesiten de emitir comprobantes electronicos; esta es tu mejor opcion para obtenerlo e incorporarlo a tu proyecto.
 
 Agrega, sin esfuerzo, el modulo de facturacion a tu sistema gracias a las API de integracion que se exponen en esta guia.
 
+<a name="comenzando"></a>
+
 ## Comenzando 🚀
 
 Para comenzar a registar tus aplicaciones, segui los siguientes pasos:
 
-1. Registrate en [Tango Factura](http://www.tangofactura.com).
-2. Crea tu aplicacion a traves del siguiente [link](https://www.tangofactura.com/PGR/Aplicaciones) (O segui los pasos de nuestra [Guia para creacion de aplicaciones](./Guias/CreacionDeAplicaciones.md))
-3.
-4.
+<ol>
+<li>Registrate en [Tango Factura](http://www.tangofactura.com).</li>
+<li>Crea tu aplicacion a traves del siguiente [link](https://www.tangofactura.com/PGR/Aplicaciones) (O segui los pasos de nuestra [Guia para creacion de aplicaciones](./Guias/CreacionDeAplicaciones.md))</li>
+<li>lalalal</li>    
+</ol>
 
 Mira **Deployment** para conocer como desplegar el proyecto.
 
