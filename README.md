@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">Esta es la documentacion oficial de la API de Tango Factura</h4>
+<h4 align="center">Esta es la documentacion oficial de la API de Tango Factura, servicio de facturacion</h4>
 
 <a name="introduccion"></a>
 [Tango factura](http://www.tangofactura.com) ha desarrollado servicios WEB que proveen a terceros de una forma simple de interactuar con los datos y la funcionalidad del sistema.
@@ -24,15 +24,36 @@ Para comenzar a registar tus aplicaciones, segui los siguientes pasos:
 
 <ol>
     <li>Registrate en <a href="http://www.tangofactura.com">Tango Factrura</a>.</li>
-    <li>Crea tu aplicacion a traves del siguiente <a href="https://www.tangofactura.com/PGR/Aplicaciones">link</a> (O segui los pasos de nuestra <a href="./Guias/CreacionDeAplicaciones.md">Guia para creacion de aplicaciones</a>).</li> 
+    <li>Crea tu aplicacion haciendo click <a href="https://www.tangofactura.com/PGR/Aplicaciones">aqui</a> (O segui los pasos de nuestra <a href="./Guias/CreacionDeAplicaciones.md">Guia para creacion de aplicaciones</a>).</li> 
     <li>Lea la documentacion detallada en este repositorio para entender el alcance de sus posibilidades.</li> 
 </ol>
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+<a name="facturacion"></a>
 
-### Pre-requisitos 📋
+## Documentacion de metodos de facturacion 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Todas las URIs derivan de *https://www.tangofactura.com/Factura*
+
+<!--
+    poner en metodo el hipervinculo al documento del metodo
+    en verbo va el verbo del HTTP Request
+    en ruta va la tura del request
+    descripcion lo que hace el metodo
+-->
+
+| Metodo           | Verbo                                                                                                | Ruta request                                     | Descripcion                       |
+| ---------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------- |
+| _CrearFactura_   | **POST**                                                                                             | /CrearFactura                                    | Crea una factura.                 |
+| _CategoriesApi_  | [**SitesSiteIdCategoriesGet**](docs/CategoriesApi.md#sitessiteidcategoriesget)                       | **GET** /sites/{site_id}/categories              | Return a categories by site.      |
+| _CategoriesApi_  | [**SitesSiteIdDomainDiscoverySearchGet**](docs/CategoriesApi.md#sitessiteiddomaindiscoverysearchget) | **GET** /sites/{site_id}/domain_discovery/search | Predictor                         |
+| _ItemsApi_       | [**ItemsIdGet**](docs/ItemsApi.md#itemsidget)                                                        | **GET** /items/{id}                              | Return a Item.                    |
+| _ItemsApi_       | [**ItemsIdPut**](docs/ItemsApi.md#itemsidput)                                                        | **PUT** /items/{id}                              | Update a Item.                    |
+| _ItemsApi_       | [**ItemsPost**](docs/ItemsApi.md#itemspost)                                                          | **POST** /items                                  | Create a Item.                    |
+| _ItemsHealthApi_ | [**ItemsIdHealthActionsGet**](docs/ItemsHealthApi.md#itemsidhealthactionsget)                        | **GET** /items/{id}/health/actions               | Return item health actions by id. |
+| _ItemsHealthApi_ | [**ItemsIdHealthGet**](docs/ItemsHealthApi.md#itemsidhealthget)                                      | **GET** /items/{id}/health                       | Return health by id.              |
+| _ItemsHealthApi_ | [**SitesSiteIdHealthLevelsGet**](docs/ItemsHealthApi.md#sitessiteidhealthlevelsget)                  | **GET** /sites/{site_id}/health_levels           | Return health levels.             |
+| _OAuth20Api_     | [**Auth**](docs/OAuth20Api.md#auth)                                                                  | **GET** /authorization                           | Authentication Endpoint           |
+| _OAuth20Api_     | [**GetToken**](docs/OAuth20Api.md#gettoken)                                                          | **POST** /oauth/token                            | Request Access Token              |
 
 ```
 Da un ejemplo
