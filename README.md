@@ -51,10 +51,28 @@ Todas las URIs derivan de *https://www.tangofactura.com/Factura*
   </tr>
   <tr>
     <td><i>CrearFactura</i></td>
-    <td><b>POST</b>></td>
+    <td><b>POST</b></td>
     <td>/CrearFactura</td>
     <td>Crea una factura.</td>
-</tr>
+  </tr>
+  <tr>
+    <td><i>GetOrCreatePDF</i></td>
+    <td><b>GET</b></td>
+    <td>/GetOrCreatePDF?preferencia={preferencia}</td>
+    <td>Obtiene o crea el PDF (segun preferencia)</td>
+  </tr>
+  <tr>
+    <td><i>CrearLoteMovimientos</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearLoteMovimientos</td>
+    <td>Crea una lista de comprobantes en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>AutorizarLoteMovimientos</i></td>
+    <td><b>POST</b></td>
+    <td>/AutorizarLoteMovimientos</td>
+    <td>Autoriza el lote de movimientos en Tango factura</td>
+  </tr>
 
 </table>
 
