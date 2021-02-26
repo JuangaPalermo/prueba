@@ -1,3 +1,14 @@
+<head>
+    <style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    </style>
+</head>
+
 <h1 align="center">Creacion de aplicaciones desde la WEB</h1>
 
 A traves de la pagina web de [Tango Factura](http://www.tangofactura.com), podes crear tus aplicaciones y asociarlas a tu empresa. A continuacion, te indicaremos paso a paso como tenes que hacerlo.
@@ -7,9 +18,9 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
 <h2>1. Crear nueva aplicacion</h2>
 
 <ol>
-    <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO" >.</li>
+    <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO">.</li>
     <li>Se abrira el siguiente formulario para que completes <br>
-    <img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion">
+    <img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion" class="center">
     </li>
     <li>Luego de cargar los datos solicitados, tendras la informacion de tu Aplicacion <br>
     <img src="./imagenes/InformacionAplicacion.png" alt="Informacion Nueva Aplicacion">
