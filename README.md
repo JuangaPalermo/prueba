@@ -23,7 +23,7 @@ Agrega, sin esfuerzo, el modulo de facturacion a tu sistema gracias a las API de
 Para comenzar a registar tus aplicaciones, segui los siguientes pasos:
 
 <ol>
-    <li>Registrate en <a href="http://www.tangofactura.com">Tango Factrura</a>.</li>
+    <li>Registrate en <a href="http://www.tangofactura.com">Tango Factura</a>.</li>
     <li>Crea tu aplicacion haciendo click <a href="https://www.tangofactura.com/PGR/Aplicaciones">aqui</a> (O segui los pasos de nuestra <a href="./Guias/CreacionDeAplicaciones.md">Guia para creacion de aplicaciones</a>).</li> 
     <li>Lea la documentacion detallada en este repositorio para entender el alcance de sus posibilidades.</li> 
 </ol>
@@ -32,7 +32,7 @@ Para comenzar a registar tus aplicaciones, segui los siguientes pasos:
 
 ## Documentacion de metodos de facturacion 📋
 
-Todas las URIs derivan de *https://www.tangofactura.com/Factura*
+Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
 
 <!--
     poner en metodo el hipervinculo al documento del metodo
@@ -72,6 +72,204 @@ Todas las URIs derivan de *https://www.tangofactura.com/Factura*
     <td><b>POST</b></td>
     <td>/AutorizarLoteMovimientos</td>
     <td>Autoriza el lote de movimientos en Tango factura</td>
+  </tr>
+  <tr>
+    <td><i>TotalFacturacionMovimientos</i></td>
+    <td><b>POST</b></td>
+    <td>/TotalFacturacionMovimientos</td>
+    <td>Obitene el total de la facturacion</td>
+  </tr>
+  <tr>
+    <td><i>VistaPreviaMovimiento</i></td>
+    <td><b>POST</b></td>
+    <td>/VistaPreviaMovimiento</td>
+    <td>Muestra la vista previa del comprobante</td>
+  </tr>
+  <tr>
+    <td><i>CrearCredito</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearCredito</td>
+    <td>Crea una nota de credito relacionado a una factura en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>CrearCreditoACuenta</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearCreditoACuenta</td>
+    <td>Crea una nota de credito sin relacion con un factura de venta en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarMovimientosQueVencenHoy</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarMovimientosQueVencenHoy</td>
+    <td>Obtiene una lista los comprobantes que vencen el dia de la fecha en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarMovimientos</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarMovimientos</td>
+    <td>Obtiene una lista de movimientos en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarAlicuotas</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarAlicuotas</td>
+    <td>Obtiene una lista de alicuotas con su respectivo codigo, nombre , porcentaje en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ObtenerInfoMovimiento</i></td>
+    <td><b>POST</b></td>
+    <td>/ObtenerInfoMovimiento</td>
+    <td>Obtiene toda la informacion de un comprobante en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ObtenerInfoMovimientosPorNroFactura</i></td>
+    <td><b>POST</b></td>
+    <td>/ObtenerInfoMovimientosPorNroFactura</td>
+    <td>Obtiene la informacion del comprobante por medio del numero de la factura en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>AutorizarMovimiento</i></td>
+    <td><b></b></td>
+    <td>/AutorizarMovimiento</td>
+    <td>Primero busca el movimieto y si lo encuentra intenta autorizarlo</td>
+  </tr>
+  <tr>
+    <td><i>CrearCliente</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearCliente</td>
+    <td>Crea a un cliente en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>CrearLoteClientes</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearLoteClientes</td>
+    <td>Crea una lista de clientes en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ModificarCliente</i></td>
+    <td><b>POST</b></td>
+    <td>/ModificarCliente</td>
+    <td>Modifica los datos del cliente en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarClientes</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarClientes</td>
+    <td>Obtiene la lista de clientes existentes en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarTiposDocumento</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarTiposDocumento</td>
+    <td>Listar tipos de documento existentes en Tango factura, conteniendo el codigo y la descricion del tipo de documento.</td>
+  </tr>
+  <tr>
+    <td><i>ObtenerCategoriaImpositivaEmpresa</i></td>
+    <td><b>POST</b></td>
+    <td>/ObtenerCategoriaImpositivaEmpresa</td>
+    <td>Obtiene la categoria impositiva de la empresa en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarProvincias</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarProvincias</td>
+    <td>Obtiene una lista de provincias en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ObtenerDatosContribuyente</i></td>
+    <td><b>POST</b></td>
+    <td>/ObtenerDatosContribuyente</td>
+    <td>Obtiene los datos del contribuyente en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>CrearProducto</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearProducto</td>
+    <td>Crea un producto en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ModificarProducto</i></td>
+    <td><b>POST</b></td>
+    <td>/ModificarProducto</td>
+    <td>Modifica los datos del producto o servicio.</td>
+  </tr>
+  <tr>
+    <td><i>ListarProductos</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarProductos</td>
+    <td>Permite obtener los productos de Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>CrearLoteProductos</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearLoteProductos</td>
+    <td>Crea un lote de productos en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarImpuestosIIBB</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarImpuestosIIBB</td>
+    <td>Obtiene una lista de ingreso bruto en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarImpuestos</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarImpuestos</td>
+    <td>Obtiene una lista de impuestos en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarEstados</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarEstados</td>
+    <td>Obtiene una lista de estados posibles de los comprobantes de Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarCategoriasImpositivas</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarCategoriasImpositivas</td>
+    <td>Obtiene una listas de categoria impositiva posibles de los comprobantes de Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>EnviarComprobanteElectronico</i></td>
+    <td><b>POST</b></td>
+    <td>/EnviarComprobanteElectronico</td>
+    <td>Envía el comprobante electrónico indicado por mail.</td>
+  </tr>
+  <tr>
+    <td><i>ObtenerUID</i></td>
+    <td><b>POST</b></td>
+    <td>/ObtenerUID</td>
+    <td>Obtiene el identificador de usuario en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>CrearEmpresa</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearEmpresa</td>
+    <td>Crea una empresa en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarPuntosVenta</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarPuntosVenta</td>
+    <td>Obtiene una lista de puntos de venta en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>CrearPuntoVenta</i></td>
+    <td><b>POST</b></td>
+    <td>/CrearPuntoVenta</td>
+    <td>Crea un de punto de venta en Tango factura.</td>
+  </tr>
+  <tr>
+    <td><i>ListarPerfilesFacturacion</i></td>
+    <td><b>POST</b></td>
+    <td>/ListarPerfilesFacturacion</td>
+    <td>Lista los IDs de los perfiles de facturación dados de alta por el usuario en Tango factura</td>
+  </tr>
+  <tr>
+    <td><i>ObtenerConfiguracionEmpresa</i></td>
+    <td><b>POST</b></td>
+    <td>/ObtenerConfiguracionEmpresa</td>
+    <td>Obtiene la configuracion de una empresa en Tango factura.</td>
   </tr>
 
 </table>
