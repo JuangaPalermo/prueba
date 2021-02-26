@@ -274,20 +274,6 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
 
 </table>
 
-| Metodo           | Verbo                                                                                                | Ruta request                                     | Descripcion                       |
-| ---------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------- |
-| _CrearFactura_   | **POST**                                                                                             | /CrearFactura                                    | Crea una factura.                 |
-| _CategoriesApi_  | [**SitesSiteIdCategoriesGet**](docs/CategoriesApi.md#sitessiteidcategoriesget)                       | **GET** /sites/{site_id}/categories              | Return a categories by site.      |
-| _CategoriesApi_  | [**SitesSiteIdDomainDiscoverySearchGet**](docs/CategoriesApi.md#sitessiteiddomaindiscoverysearchget) | **GET** /sites/{site_id}/domain_discovery/search | Predictor                         |
-| _ItemsApi_       | [**ItemsIdGet**](docs/ItemsApi.md#itemsidget)                                                        | **GET** /items/{id}                              | Return a Item.                    |
-| _ItemsApi_       | [**ItemsIdPut**](docs/ItemsApi.md#itemsidput)                                                        | **PUT** /items/{id}                              | Update a Item.                    |
-| _ItemsApi_       | [**ItemsPost**](docs/ItemsApi.md#itemspost)                                                          | **POST** /items                                  | Create a Item.                    |
-| _ItemsHealthApi_ | [**ItemsIdHealthActionsGet**](docs/ItemsHealthApi.md#itemsidhealthactionsget)                        | **GET** /items/{id}/health/actions               | Return item health actions by id. |
-| _ItemsHealthApi_ | [**ItemsIdHealthGet**](docs/ItemsHealthApi.md#itemsidhealthget)                                      | **GET** /items/{id}/health                       | Return health by id.              |
-| _ItemsHealthApi_ | [**SitesSiteIdHealthLevelsGet**](docs/ItemsHealthApi.md#sitessiteidhealthlevelsget)                  | **GET** /sites/{site_id}/health_levels           | Return health levels.             |
-| _OAuth20Api_     | [**Auth**](docs/OAuth20Api.md#auth)                                                                  | **GET** /authorization                           | Authentication Endpoint           |
-| _OAuth20Api_     | [**GetToken**](docs/OAuth20Api.md#gettoken)                                                          | **POST** /oauth/token                            | Request Access Token              |
-
 ```
 Da un ejemplo
 ```
