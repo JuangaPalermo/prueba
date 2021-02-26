@@ -50,8 +50,8 @@ Todas las URIs derivan de *https://www.tangofactura.com/Factura*
     <th>Descripcion</th>
   </tr>
   <tr>
-    <td>_CrearFactura_</td>
-    <td>**POST**</td>
+    <td><i>CrearFactura</i></td>
+    <td><b>POST</b>></td>
     <td>/CrearFactura</td>
     <td>Crea una factura.</td>
 </tr>
