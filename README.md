@@ -274,6 +274,13 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
 
 </table>
 
+## Ejemplos de uso 🎁
+
+<ul>
+  <li><a href="http://resources.tangofactura.com/downloads/SDK.CSharp.rar">SDK C#</a></li>
+  <li><a href="http://resources.tangofactura.com/downloads/SDK.PHP.rar">SDK PHP</a></li>
+</ul>
+
 ```
 Da un ejemplo
 ```
@@ -353,7 +360,7 @@ También puedes mirar la lista de todos los [contribuyentes](https://github.com/
 
 Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
-## Expresiones de Gratitud 🎁
+
 
 - Comenta a otros sobre este proyecto 📢
 - Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
