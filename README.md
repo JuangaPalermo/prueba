@@ -41,6 +41,23 @@ Todas las URIs derivan de *https://www.tangofactura.com/Factura*
     descripcion lo que hace el metodo
 -->
 
+<table style="width:100%">
+
+  <tr>
+    <th>Metodo</th>
+    <th>Verbo</th>
+    <th>Ruta request</th>
+    <th>Descripcion</th>
+  </tr>
+  <tr>
+    <td>_CrearFactura_</td>
+    <td>**POST**</td>
+    <td>/CrearFactura</td>
+    <td>Crea una factura.</td>
+</tr>
+
+</table>
+
 | Metodo           | Verbo                                                                                                | Ruta request                                     | Descripcion                       |
 | ---------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------- |
 | _CrearFactura_   | **POST**                                                                                             | /CrearFactura                                    | Crea una factura.                 |
