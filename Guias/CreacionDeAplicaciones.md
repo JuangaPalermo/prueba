@@ -20,7 +20,7 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
 <ol>
     <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO">.</li>
     <li>Se abrira el siguiente formulario para que completes <br> </li>
-    <img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion" class="center">
+    <img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion" width=50% align="center">
     <li>Luego de cargar los datos solicitados, tendras la informacion de tu Aplicacion <br>
     <img src="./imagenes/InformacionAplicacion.png" alt="Informacion Nueva Aplicacion">
     </li>
