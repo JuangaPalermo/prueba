@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <style>
+        .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                }
+    </style>
 </head>
 <body>
     <h1 align="center">Creacion de aplicaciones desde la WEB</h1>
@@ -16,7 +24,7 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
 <h2>1. Crear nueva aplicacion</h2>
 <p class="Pasos">
 <ol>
-    <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO">.</li>
+    <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO" class="center">.</li>
     <br>
     <li>Se abrira el siguiente formulario para que completes <br>
         <img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion">
