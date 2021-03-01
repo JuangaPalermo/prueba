@@ -14,21 +14,21 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
     </li>
     <br>
     <li>Luego de cargar los datos solicitados, tendras la informacion de tu Aplicacion <br>
-    <img src="./imagenes/InformacionAplicacion.png" alt="Informacion Nueva Aplicacion">
+        <div align="center"><img src="./imagenes/InformacionAplicacion.png" alt="Informacion Nueva Aplicacion"></div>
     </li>
     <br>
     <li>Tendras que autorizar la aplicacion haciendo click en el boton <img src="./imagenes/btnAutorizar.png" alt="AUTORIZAR"> y permitir la solicitud.</li>
     <br>
     <li>Si es la primera vez que agregar una aplicacion, deberas configurar la facturacion automatica. Te aparecera la siguiente imagen: <br>
-    <img src="./imagenes/AutorizarFacturacionAutomatica.png" alt="Autorizar facturacion automatica">
+    <div align="center"><img src="./imagenes/AutorizarFacturacionAutomatica.png" alt="Autorizar facturacion automatica"></div>
     </li>
     <br>
     <li>Luego de tocar el boton de Parametros Generales, deberas seleccionar la siguiente opcion: 
-        <img src="./imagenes/btnFacturacionAutomatica.png" alt="Boton Facturacion Automatica">
+        <div align="center"><img src="./imagenes/btnFacturacionAutomatica.png" alt="Boton Facturacion Automatica"></div>
     </li>
     <br>
     <li>Y por ultimo, configurala segun tus necesidades a traves del siguiente formulario: <br>
-    <img src="./imagenes/FormularioFacturacionAutomatica.png" alt="Formulario de configuracion de Facturacion Automatica">
+        <div align="center"><img src="./imagenes/FormularioFacturacionAutomatica.png" alt="Formulario de configuracion de Facturacion Automatica"></div>
     </li>
 </ol>
 </p>
