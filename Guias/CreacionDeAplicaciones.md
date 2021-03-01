@@ -1,9 +1,18 @@
-<h1 align="center">Creacion de aplicaciones desde la WEB</h1>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">Creacion de aplicaciones desde la WEB</h1>
+<p>
 A traves de la pagina web de [Tango Factura](http://www.tangofactura.com), podes crear tus aplicaciones y asociarlas a tu empresa. A continuacion, te indicaremos paso a paso como tenes que hacerlo.
 
 La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura.com/Home/BsDashboard#9) -> [Tango Factura Connect](https://www.tangofactura.com/PGR/ConfiguracionApi) -> [Aplicaciones](https://www.tangofactura.com/PGR/Aplicaciones)
-
+</p>
 <h2>1. Crear nueva aplicacion</h2>
 <p class="Pasos">
 <ol>
@@ -32,3 +41,6 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
     </li>
 </ol>
 </p>
+
+</body>
+</html>
