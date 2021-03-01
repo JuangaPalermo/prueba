@@ -1,33 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h1 align="center">Creacion de aplicaciones desde la WEB</h1>
 
-    <style>
-        .center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
-                }
-    </style>
-</head>
-<body>
-    <h1 align="center">Creacion de aplicaciones desde la WEB</h1>
-<p>
 A traves de la pagina web de [Tango Factura](http://www.tangofactura.com), podes crear tus aplicaciones y asociarlas a tu empresa. A continuacion, te indicaremos paso a paso como tenes que hacerlo.
 
 La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura.com/Home/BsDashboard#9) -> [Tango Factura Connect](https://www.tangofactura.com/PGR/ConfiguracionApi) -> [Aplicaciones](https://www.tangofactura.com/PGR/Aplicaciones)
-</p>
+
 <h2>1. Crear nueva aplicacion</h2>
 <p class="Pasos">
 <ol>
-    <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO" class="center">.</li>
+    <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO">.</li>
     <br>
     <li>Se abrira el siguiente formulario para que completes <br>
-        <img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion">
+        <div align="center"><img src="./imagenes/FormularioNuevaAplicacion.png" alt="Formulario Nueva Aplicacion"></div>
     </li>
     <br>
     <li>Luego de cargar los datos solicitados, tendras la informacion de tu Aplicacion <br>
@@ -49,6 +32,3 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
     </li>
 </ol>
 </p>
-
-</body>
-</html>
