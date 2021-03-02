@@ -46,6 +46,20 @@ https://www.tangofactura.com/Factura/CrearFactura
     <td>Solo si la letra de factura es A, o si el importe es superior a 1000 pesos.</td>
     <td>-</td>
 </tr>
+<tr>
+    <td>ClienteDireccionExtendida</td>
+    <td>Obtiene ó Setea la dirección extendida del cliente.</td>
+    <td>ClienteDireccionModel</td>
+    <td>Solo si la letra de factura es A, o si el importe es superior a 1000 pesos.</td>
+    <td>-</td>
+</tr>
+<tr>
+    <td>RegimenDatosFce</td>
+    <td>Obtiene ó Setea RegimenDatosFce</td>
+    <td>MovimientoRegimenDatosFCE</td>
+    <td>-</td>
+    <td>-</td>
+</tr>
 </table>
 
 <h3>Formato ejemplo</h3>
