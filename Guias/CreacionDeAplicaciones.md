@@ -1,12 +1,14 @@
 <body>
     <h1 align="center">Creacion de aplicaciones desde la WEB</h1>
 
-A traves de la pagina web de [Tango Factura](http://www.tangofactura.com), podes crear tus aplicaciones y asociarlas a tu empresa. A continuacion, te indicaremos paso a paso como tenes que hacerlo.
+<p>
+    A traves de la pagina web de [Tango Factura](http://www.tangofactura.com), podes crear tus aplicaciones y asociarlas a tu empresa. A continuacion, te indicaremos paso a paso como tenes que hacerlo.
 
-La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura.com/Home/BsDashboard#9) -> [Tango Factura Connect](https://www.tangofactura.com/PGR/ConfiguracionApi) -> [Aplicaciones](https://www.tangofactura.com/PGR/Aplicaciones)
+    La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura.com/Home/BsDashboard#9) -> [Tango Factura Connect](https://www.tangofactura.com/PGR/ConfiguracionApi) -> [Aplicaciones](https://www.tangofactura.com/PGR/Aplicaciones)
+</p>
 
-<h2>1. Crear nueva aplicacion</h2>
-<p class="Pasos">
+<h2 align="center">Pasos a seguir</h2>
+<div class="Pasos">
 <ol>
     <li>Dentro del menu superior, selecciona el boton <img src="./imagenes/btnNuevo.png" alt="NUEVO">.</li>
     <br>
@@ -32,6 +34,6 @@ La ruta para seguir este instructivo es: [Aplicaciones](https://www.tangofactura
         <div align="center"><img src="./imagenes/FormularioFacturacionAutomatica.png" alt="Formulario de configuracion de Facturacion Automatica"></div>
     </li>
 </ol>
-</p>
+</div>
 
 </body>
