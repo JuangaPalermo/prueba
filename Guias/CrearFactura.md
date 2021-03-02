@@ -1,3 +1,4 @@
+<body>
 <h1 align="center">POST Factura/CrearFactura</h1>
 
 Crea una nueva factura en Tango factura.
@@ -24,3 +25,4 @@ https://www.tangofactura.com/Factura/CrearFactura
     <td>Sus valores pueden ser: A - B - C - M</td>
 </tr>
 </table>
+</body>
