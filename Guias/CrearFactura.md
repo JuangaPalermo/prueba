@@ -48,7 +48,80 @@ https://www.tangofactura.com/Factura/CrearFactura
 </tr>
 </table>
 
-<h3>Formato</h3>
+<h3>Formato ejemplo</h3>
+
+```
+{
+    "Letra": "A",
+    "ClienteCodigo": "00001458",
+    "ClienteNombre": "Axoft SA",
+    "ClienteDireccion": " Cerrito 1214, C.A.B.A. (C1010AAZ), Buenos Aires",
+    "RegimenDatosFce": {
+      "ReferenciaComercial": "Referencia comercial",
+      "UserIdentifier": "",
+      "ApplicationPublicKey": "",
+      "Token": ""
+    },
+    "RegimenDatosFEX": {
+      "TipoExportacion": 1,
+      "CodigoPais": "sample string 2",
+      "PaisNombre": "sample string 3",
+      "TipoPersona": 4,
+      "CuitPais": "sample string 5",
+      "IncotermsClausulaVenta": "sample string 6",
+      "IncotermsInformacionComplementaria": "sample string 7",
+      "PermisosEmbarque": [
+        {
+          "Codigo": "sample string 1",
+          "CodigoPaisDestinoMercaderia": "sample string 2",
+          "NombrePaisDestinoMercaderia": "sample string 3"
+        }
+      ],
+      "IdiomaComprobante": 8,
+      "IdentificadorTributario": "sample string 9",
+      "ObservacionesComerciales": "sample string 10"
+    },
+    "ClienteTipoDocumento": 1,
+    "ClienteNumeroDocumento": "30-63165881-0",
+    "ClienteEmail": "tangofactura@axoft.com",
+    "CategoriaImpositivaCodigo": "Responsable Inscripto",
+    "Observacion": "Observación del comprobante. (Opcional)",
+    "DetallesMovimiento": [
+      {
+        "ProductoCodigo": "ML48516",
+        "ProductoCodigoAlternativo": "sample string 1",
+        "ProductoNombre": "Producto inicial ",
+        "ProductoDescripcion": "Primer producto registrado en Tango Factura",
+        "Cantidad": 2.0,
+        "Precio": 3.0,
+        "DepositoID": 1,
+        "Bonificacion": 4.0,
+        "DetalleAlicuotas": [
+          {
+            "AlicuotaCodigo": 1,
+            "AlicuotaPorcentaje": 1.0,
+            "ImpuestoID": 2
+          }
+        ],
+        "PosicionImpuestoID": 1
+      }
+    ],
+    "FechaComprobante": "2021-03-02T11:38:30.2908898+00:00",
+    "FechaServicioDesde": "2021-03-02T11:38:30.2908898+00:00",
+    "FechaServicioHasta": "2021-03-02T11:38:30.2908898+00:00",
+    "MovimientoReferenciaID": 1,
+    "TipoMovimiento": 1,
+    "PerfilComprobanteID": 1,
+    "OrderID": 1,
+    "FechaPAsocDesde": "2021-03-02T11:38:30.2908898+00:00",
+    "FechaPAsocHasta": "2021-03-02T11:38:30.2908898+00:00",
+    "DescuentoTotal": 1.0,
+    "DepositoID": 1,
+    "UserIdentifier": "",
+    "ApplicationPublicKey": "",
+    "Token": ""
+  }
+  ```
 
 <h2 align="center">Response</h2>
 
