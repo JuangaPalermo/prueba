@@ -10,7 +10,7 @@ https://www.tangofactura.com/Factura/CrearFactura
 <h2 align="center">Request</h2>
 
 <h3>Parametros</h3>
-<table style="text-align: center;">
+<table align="center">
 <tr>
     <th>Nombre</th>
     <th>Descripcion</th>
