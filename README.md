@@ -281,6 +281,10 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
   <li><a href="http://resources.tangofactura.com/downloads/SDK.PHP.rar">SDK PHP</a></li>
 </ul>
 
+## Control de versiones 🔧
+
+Nuestra API se actualiza constantemente, para brindar nuevas funcionalidades! Podés revisar estas modificaciones
+en los commits de este mismo repositorio, o dirigirte a nuestro <a href="/Control de versiones/RegistroDeModificaciones.md">Registro de modificaciones</a>
 
 <!-- ```
 Da un ejemplo
