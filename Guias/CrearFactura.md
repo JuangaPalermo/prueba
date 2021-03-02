@@ -124,5 +124,55 @@ https://www.tangofactura.com/Factura/CrearFactura
   ```
 
 <h2 align="center">Response</h2>
-
+<h3>Parametros</h3>
+<table style="width: 100%;">
+    <tr>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Tipo</th>
+        <th>Informacion Adicional</th>
+    </tr>
+    <tr>
+        <td>Data</td>
+        <td></td>
+        <td>Object</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Error</td>
+        <td></td>
+        <td>Collection of DetalleError</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>CodigoError</td>
+        <td>Contiene el codigo HTTP</td>
+        <td>Integer</td>
+        <td>-</td>
+    </tr>
+</table>
+<h3>Formato ejemplo</h3>
+```
+{
+    "Data": {
+      "MovimientoId": 0,
+      "Grabado": false,
+      "Electronico": false,
+      "EstadoId": 0,
+      "FechaEmision": "0001-01-01T00:00:00",
+      "FechaVencimiento": "0001-01-01T00:00:00",
+      "TotalIVA": 0.0,
+      "TotalOtrosImpuestos": 0.0,
+      "Total": 0.0,
+      "Subtotal": 0.0
+    },
+    "Error": [
+      {
+        "Mensaje": "Error 404",
+        "Nivel": 1
+      }
+    ],
+    "CodigoError": 2
+  }
+```
 </body>
