@@ -152,7 +152,7 @@ https://www.tangofactura.com/Factura/CrearFactura
     </tr>
 </table>
 <h3>Formato ejemplo</h3>
-```
+``` 
 {
     "Data": {
       "MovimientoId": 0,
