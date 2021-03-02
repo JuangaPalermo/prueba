@@ -121,7 +121,7 @@ https://www.tangofactura.com/Factura/CrearFactura
     "ApplicationPublicKey": "",
     "Token": ""
   }
-  ```
+```
 
 <h2 align="center">Response</h2>
 <h3>Parametros</h3>
