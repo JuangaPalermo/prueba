@@ -1,11 +1,11 @@
-<body>
+
     <h1 align="center">POST Factura/CrearFactura</h1>
 
-    <p>Crea una nueva factura en Tango factura.</p>
+    Crea una nueva factura en Tango factura.
 
     <h2>URL del Resource</h2>
 
-    <p>https://www.tangofactura.com/Factura/CrearFactura</p>
+    https://www.tangofactura.com/Factura/CrearFactura
 
 
 
@@ -25,4 +25,3 @@
         <td>Sus valores pueden ser: A - B - C - M</td>
     </tr>
     </table>
-</body>
