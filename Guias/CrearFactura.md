@@ -51,7 +51,7 @@ https://www.tangofactura.com/Factura/CrearFactura
 <h3>Formato ejemplo</h3>
 
 ```
-{
+  {
     "Letra": "A",
     "ClienteCodigo": "00001458",
     "ClienteNombre": "Axoft SA",
@@ -154,7 +154,7 @@ https://www.tangofactura.com/Factura/CrearFactura
 <h3>Formato ejemplo</h3>
 
 ```
-{
+  {
     "Data": {
       "MovimientoId": 0,
       "Grabado": false,
