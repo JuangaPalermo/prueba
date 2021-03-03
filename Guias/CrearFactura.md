@@ -102,6 +102,13 @@ https://www.tangofactura.com/Factura/CrearFactura
   <td>Si</td>
   <td>Puede ser: </br> EX: Exento</br> MT: Responsable Monotributo </br> CF: Consumidor Final</br> RI: Responsable Inscripto</td>
 </tr>
+<tr>
+  <td>DetallesMovimiento</td>
+  <td>Obtiene ó Setea la lista de productos/servicios a facturar.</td>
+  <td>IList<DetallesMovimiento></td>
+  <td>Si</td>
+  <td>Son los renglones del movimiento</td>
+</tr>
 
 </table>
 
