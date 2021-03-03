@@ -60,6 +60,49 @@ https://www.tangofactura.com/Factura/CrearFactura
     <td>-</td>
     <td>-</td>
 </tr>
+<tr>
+  <td>RegimenDatosFEX</td>
+  <td>Obtiene ó Setea RegimenDatosFEX</td>
+  <td>MovimientoRegimenDatosFexSerializer</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>ClienteTipoDocumento</td>
+  <td>Obtiene o Setea el tipo de documento del cliente</td>
+  <td>Int?</td>
+  <td></td>
+  <td>Este codigo se obtiene del metodo del servicio "Listar Tipos de documento". Valores posibles: <br> DNI 1 <br> CUIT 2 <br> CI 3 <br> LE 4 <br> LC 5 <br> CUIL 6</td>
+</tr>
+<tr>
+  <td>ClienteNumeroDocumento</td>
+  <td>Obtiene ó Setea el número de documento del cliente.</td>
+  <td>string</td>
+  <td>Si</td>
+  <td>Por ejemplo: 30-63165881-0</td>
+</tr>
+<tr>
+  <td>ClienteEmail</td>
+  <td>Obtiene ó Setea el email del cliente.</td>
+  <td>String</td>
+  <td>No</td>
+  <td>A esta dirección se le enviará el comprobante electrónico luego de aprobarse.</td>
+</tr>
+<tr>
+  <td>Observacion</td>
+  <td>Obtiene ó Setea la observacion.</td>
+  <td>String</td>
+  <td>No</td>
+  <td>Observación del comprobante.</td>
+</tr>
+<tr>
+  <td>CategoriaImpositivaCodigo</td>
+  <td>Obtiene ó Setea la categoria impositiva.</td>
+  <td>String</td>
+  <td>Si</td>
+  <td>Puede ser: </br> EX: Exento</br> MT: Responsable Monotributo </br> CF: Consumidor Final</br> RI: Responsable Inscripto</td>
+</tr>
+
 </table>
 
 <h3>Formato ejemplo</h3>
