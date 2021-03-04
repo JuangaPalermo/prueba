@@ -70,7 +70,7 @@ https://www.tangofactura.com/Factura/CrearFactura
 <tr>
   <td>ClienteTipoDocumento</td>
   <td>Obtiene o Setea el tipo de documento del cliente</td>
-  <td>Int?</td>
+  <td>int?</td>
   <td></td>
   <td>Este codigo se obtiene del metodo del servicio "Listar Tipos de documento". Valores posibles: <br> DNI 1 <br> CUIT 2 <br> CI 3 <br> LE 4 <br> LC 5 <br> CUIL 6</td>
 </tr>
@@ -105,9 +105,107 @@ https://www.tangofactura.com/Factura/CrearFactura
 <tr>
   <td>DetallesMovimiento</td>
   <td>Obtiene ó Setea la lista de productos/servicios a facturar.</td>
-  <td>IList<DetallesMovimiento></td>
+  <td>IList of DetallesMovimiento</td>
   <td>Si</td>
   <td>Son los renglones del movimiento</td>
+</tr>
+<tr>
+  <td>FechaComprobante</td>
+  <td>Obtiene ó Setea la fecha del comprobante.</td>
+  <td>DateTime?</td>
+  <td>Si</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>FechaServicioDesde</td>
+  <td>Obtiene ó Setea la fecha de cuando empieza el servicio.</td>
+  <td>DateTime?</td>
+  <td>Si</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>FechaServicioHasta</td>
+  <td>Obtiene ó Setea la fecha de cuando termia el servicio.</td>
+  <td>DateTime?</td>
+  <td>Si</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>MovimientoReferenciaID</td>
+  <td>Obtiene ó setea el movimiento relacionado para débito.</td>
+  <td>int?</td>
+  <td>Si</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>TipoMovimiento</td>
+  <td>Obtiene o Setea el tipo de movimiento</td>
+  <td>TipoMovimientoForService</td>
+  <td>Si</td>
+  <td>Valores posibles: <br>FVA <br>CVA</td>
+</tr>
+<tr>
+  <td>PerfilComprobanteID</td>
+  <td>Perfil de facturación a utilizar.</td>
+  <td>int?</td>
+  <td>Si</td>
+  <td>Si es null se utiliza el perfil de Facturación automática.</td>
+</tr>
+<tr>
+  <td>OrderID</td>
+  <td>Obtiene o Setea el OrderID</td>
+  <td>int?</td>
+  <td>No</td>
+  <td>Se usa para Woocommerce</td>
+</tr>
+<tr>
+  <td>FechaPAsocDesde</td>
+  <td>Fecha de inicio del periodo asociado</td>
+  <td>DateTime?</td>
+  <td>No</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>FechaPAsocHasta</td>
+  <td>Fecha de finalizacion del periodo asociado</td>
+  <td>DateTime?</td>
+  <td>No</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>DescuentoTotal</td>
+  <td>Obtiene o Setea el DescuentoTotal</td>
+  <td>decimal?</td>
+  <td>No</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>DepositoID</td>
+  <td>Obtiene o Setea el DepositoID</td>
+  <td>int?</td>
+  <td>No</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>UserIdentifier</td>
+  <td>Es el UserIdentifier asociado a la aplicacion</td>
+  <td>string</td>
+  <td>Si</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>ApplicationPublicKey</td>
+  <td>Clave publica de la aplicacion</td>
+  <td>string</td>
+  <td>Si</td>
+  <td>-</td>
+</tr>
+<tr>
+  <td>Token</td>
+  <td>Es el Token asociado a la aplicacion</td>
+  <td>string</td>
+  <td>Si</td>
+  <td>-</td>
 </tr>
 
 </table>
