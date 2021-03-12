@@ -49,7 +49,7 @@ https://www.tangofactura.com/Factura/CrearFactura
 <tr>
     <td>ClienteDireccionExtendida</td>
     <td>Obtiene ó Setea la dirección extendida del cliente.</td>
-    <td> <a href="/Guias/Tipos de datos/ClienteDireccionModel.md">ClienteDireccionModel</a></td>
+    <td><a href="/Guias/Tipos de datos/ClienteDireccionModel.md">ClienteDireccionModel</a></td>
     <td>Solo si la letra de factura es A, o si el importe es superior a 1000 pesos.</td>
     <td>-</td>
 </tr>
