@@ -19,7 +19,7 @@ Obtiene los detalles del movimiento , es decir el detalle/cuerpo del comprobante
         <td>Obtiene ó Setea el código del producto.</td>
         <td>String</td>
         <td>Si</td>
-        <td>Tiene un maximo de 16 caracters</td>
+        <td>Tiene un maximo de 16 caracteres</td>
     </tr>
     <tr>
         <td>ProductoCodigoAlternativo</td>
