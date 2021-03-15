@@ -30,7 +30,7 @@ Se utiliza para enviar todos los datos de la direccion del cliente
     </tr>
     <tr>
         <td>Piso</td>
-        <td>Ontiene o Setea el Piso</td>
+        <td>Obtiene o Setea el Piso</td>
         <td>String</td>
         <td>Si</td>
         <td>-</td>
@@ -71,7 +71,7 @@ Se utiliza para enviar todos los datos de la direccion del cliente
         <td>-</td>
     </tr>
     <tr>
-        <td>PaisnNombre</td>
+        <td>PaisNombre</td>
         <td>Obtiene o Setea el nombre del Pais</td>
         <td>String</td>
         <td>Si</td>

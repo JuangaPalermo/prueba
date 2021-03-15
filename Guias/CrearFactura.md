@@ -56,14 +56,14 @@ https://www.tangofactura.com/Factura/CrearFactura
 <tr>
     <td>RegimenDatosFce</td>
     <td>Obtiene ó Setea RegimenDatosFce</td>
-    <td>MovimientoRegimenDatosFCE</td>
+    <td><a href="/Guias/Tipos de datos/MovimientoRegimenDatosFCE.md">MovimientoRegimenDatosFCE</a></td>
     <td>-</td>
     <td>-</td>
 </tr>
 <tr>
   <td>RegimenDatosFEX</td>
   <td>Obtiene ó Setea RegimenDatosFEX</td>
-  <td>MovimientoRegimenDatosFexSerializer</td>
+  <td><a href="/Guias/Tipos de datos/MovimientoRegimenDatosFexSerializer.md">MovimientoRegimenDatosFexSerializer</a></td>
   <td>-</td>
   <td>-</td>
 </tr>
@@ -105,7 +105,7 @@ https://www.tangofactura.com/Factura/CrearFactura
 <tr>
   <td>DetallesMovimiento</td>
   <td>Obtiene ó Setea la lista de productos/servicios a facturar.</td>
-  <td>IList of DetallesMovimiento</td>
+  <td>IList of <a href="/Guias/Tipos de datos/DetallesMovimiento.md">DetallesMovimiento</a></td>
   <td>Si</td>
   <td>Son los renglones del movimiento</td>
 </tr>
