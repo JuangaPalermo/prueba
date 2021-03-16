@@ -23,7 +23,7 @@ https://www.tangofactura.com/Factura/GetOrCreatePDF?preferencia={preferencia}
     <td>Enumerado que define la accion que se quiere tomar segun la opcion seleccionada</td>
     <td><a href="/Guias/Tipos de datos/PreferenciaImpresion.md"></a>PreferenciaImpresion</td>
     <td>Si</td>
-    <td>Sus valores pueden ser: <br>0 - Impresion <br>1 - Visualizacion/Descarga</td>
+    <td>Sus valores pueden ser: <br>0 - Impresion <br>1 - Visualizacion / Descarga</td>
 </tr>
 </table>
 
