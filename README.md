@@ -56,7 +56,7 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Crea una factura.</td>
   </tr>
   <tr>
-    <td><i>GetOrCreatePDF</i></td>
+    <td><a href="/Guias/GetOrCreatePDF.md"><i>GetOrCreatePDF</i></a></td>
     <td><b>GET</b></td>
     <td>/GetOrCreatePDF?preferencia={preferencia}</td>
     <td>Obtiene o crea el PDF (segun preferencia)</td>
