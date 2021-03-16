@@ -1,6 +1,6 @@
 <body>
 
-<h1 align="center">📢 TipoMovimientoForService 📢</h1>
+<h1 align="center">📢 PreferenciaImpresion 📢</h1>
 
 Enumerado que tiene las siguientes opciones:
 
@@ -12,16 +12,12 @@ Enumerado que tiene las siguientes opciones:
         <th>Valor</th>
     </tr>
     <tr>
-        <td>FVA</td>
-        <td>1</td>
+        <td>ParaImpresion</td>
+        <td>0</td>
     </tr>
     <tr>
-        <td>CVA</td>
-        <td>2</td>
-    </tr>    
-    <tr>
-        <td>DVA</td>
-        <td>3</td>
+        <td>ParaVisualizacionoDescarga</td>
+        <td>1</td>
     </tr>
 </table>
     

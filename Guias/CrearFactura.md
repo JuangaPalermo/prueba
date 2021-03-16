@@ -142,7 +142,7 @@ https://www.tangofactura.com/Factura/CrearFactura
   <td>Obtiene o Setea el tipo de movimiento</td>
   <td>enum <a href="/Guias/Tipos de datos/TipoMovimientoForService.md">TipoMovimientoForService</a></td>
   <td>Si</td>
-  <td>Valores posibles: <br>FVA <br>CVA</td>
+  <td>Valores posibles: <br>FVA <br>CVA <br>DVA</td>
 </tr>
 <tr>
   <td>PerfilComprobanteID</td>
