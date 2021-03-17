@@ -1,11 +1,11 @@
 <body>
-<h1 align="center">POST Factura/CrearFactura</h1>
+<h1 align="center">POST Factura/VistaPreviaMovimiento</h1>
 
-Crea una nueva factura en Tango factura.
+Muestra la vista previa del comprobante
 
 <h2 align="center">URL del Resource</h2>
 
-https://www.tangofactura.com/Factura/CrearFactura
+https://www.tangofactura.com/Factura/VistaPreviaMovimiento
 
 <h2 align="center">Request</h2>
 

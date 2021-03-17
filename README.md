@@ -62,25 +62,25 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Obtiene o crea el PDF (segun preferencia)</td>
   </tr>
   <tr>
-    <td><i>CrearLoteMovimientos</i></td>
+    <td><a href="/Guias/CrearLoteMovimientos.md"><i>CrearLoteMovimientos</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearLoteMovimientos</td>
     <td>Crea una lista de comprobantes en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>AutorizarLoteMovimientos</i></td>
+    <td><a href="/Guias/AutorizarLoteMovimientos.md"><i>AutorizarLoteMovimientos</i></a></td>
     <td><b>POST</b></td>
     <td>/AutorizarLoteMovimientos</td>
     <td>Autoriza el lote de movimientos en Tango factura</td>
   </tr>
   <tr>
-    <td><i>TotalFacturacionMovimientos</i></td>
+    <td><a href="/Guias/TotalFacturacionMovimientos.md"><i>TotalFacturacionMovimientos</i></a></td>
     <td><b>POST</b></td>
     <td>/TotalFacturacionMovimientos</td>
     <td>Obitene el total de la facturacion</td>
   </tr>
   <tr>
-    <td><i>VistaPreviaMovimiento</i></td>
+    <td><a href="/Guias/VistaPreviaMovimiento.md"><i>VistaPreviaMovimiento</i></a></td>
     <td><b>POST</b></td>
     <td>/VistaPreviaMovimiento</td>
     <td>Muestra la vista previa del comprobante</td>

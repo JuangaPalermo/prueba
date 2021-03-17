@@ -1,10 +1,10 @@
-<h1 align="center">POST Factura/CrearLoteMovimientos</h1>
+<h1 align="center">POST Factura/TotalFacturacionMovimientos</h1>
 
-Crea una lista de comprobantes en Tango factura.
+Obitene el total de la facturacion , si tiene nombre comercial le pasa el nombre nombre comercial , en caso de no tener le pasa el nombre legal.
 
 <h2 align="center">URL del Resource</h2>
 
-https://www.tangofactura.com/Factura/CrearLoteMovimientos
+https://www.tangofactura.com/Factura/TotalFacturacionMovimientos
 
 <h2 align="center">Request</h2>
 
@@ -114,15 +114,15 @@ https://www.tangofactura.com/Factura/CrearLoteMovimientos
         "PosicionImpuestoID": 1
         }
     ],
-    "FechaComprobante": "2021-03-17T12:20:38.4612041+00:00",
-    "FechaServicioDesde": "2021-03-17T12:20:38.4612041+00:00",
-    "FechaServicioHasta": "2021-03-17T12:20:38.4612041+00:00",
+    "FechaComprobante": "2021-03-17T15:24:49.9162658+00:00",
+    "FechaServicioDesde": "2021-03-17T15:24:49.9162658+00:00",
+    "FechaServicioHasta": "2021-03-17T15:24:49.9162658+00:00",
     "MovimientoReferenciaID": 1,
     "TipoMovimiento": 1,
     "PerfilComprobanteID": 1,
     "OrderID": 1,
-    "FechaPAsocDesde": "2021-03-17T12:20:38.4612041+00:00",
-    "FechaPAsocHasta": "2021-03-17T12:20:38.4612041+00:00",
+    "FechaPAsocDesde": "2021-03-17T15:24:49.9162658+00:00",
+    "FechaPAsocHasta": "2021-03-17T15:24:49.9162658+00:00",
     "DescuentoTotal": 1.0,
     "DepositoID": 1,
     "UserIdentifier": "",
@@ -134,6 +134,7 @@ https://www.tangofactura.com/Factura/CrearLoteMovimientos
     "UserIdentifier": "",
     "ApplicationPublicKey": "",
     "Token": ""
+    }
 ```
 
 <h2 align="center">Response</h2>
