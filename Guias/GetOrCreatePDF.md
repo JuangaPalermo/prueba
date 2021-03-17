@@ -38,7 +38,7 @@ https://www.tangofactura.com/Factura/GetOrCreatePDF?preferencia={preferencia}
     </tr>
     <tr>
         <td>Error</td>
-        <td>Muestra una lista de mensajed de error</td>
+        <td>Muestra una lista de mensajes de error</td>
         <td>IList of <a href="/Guias/Tipos de datos/DetalleError.md">DetalleError</a></td>
         <td></td>
     </tr>
