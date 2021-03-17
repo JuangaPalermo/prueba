@@ -303,7 +303,7 @@ https://www.tangofactura.com/Factura/CrearFactura
     <tr>
         <td>Error</td>
         <td></td>
-        <td>Collection of DetalleError</td>
+        <td>Collection of <a href="/Guias/Tipos de datos/DetalleError.md">DetalleError</a></td>
         <td>-</td>
     </tr>
     <tr>
