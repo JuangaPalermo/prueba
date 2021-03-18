@@ -86,7 +86,7 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Muestra la vista previa del comprobante</td>
   </tr>
   <tr>
-    <td><i>CrearCredito</i></td>
+    <td><a href="/Guias/CrearCredito.md"><i>CrearCredito</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearCredito</td>
     <td>Crea una nota de credito relacionado a una factura en Tango factura.</td>
