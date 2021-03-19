@@ -92,37 +92,37 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Crea una nota de credito relacionado a una factura en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>CrearCreditoACuenta</i></td>
+    <td><a href="/Guias/CrearCreditoACuenta.md"><i>CrearCreditoACuenta</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearCreditoACuenta</td>
     <td>Crea una nota de credito sin relacion con un factura de venta en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarMovimientosQueVencenHoy</i></td>
+    <td><a href="/Guias/ListarMovimientosQueVencenHoy.md"><i>ListarMovimientosQueVencenHoy</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarMovimientosQueVencenHoy</td>
     <td>Obtiene una lista los comprobantes que vencen el dia de la fecha en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarMovimientos</i></td>
+    <td><a href="/Guias/ListarMovimientos.md"><i>ListarMovimientos</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarMovimientos</td>
     <td>Obtiene una lista de movimientos en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarAlicuotas</i></td>
+    <td><a href="/Guias/ListarAlicuotas.md"><i>ListarAlicuotas</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarAlicuotas</td>
     <td>Obtiene una lista de alicuotas con su respectivo codigo, nombre , porcentaje en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ObtenerInfoMovimiento</i></td>
+    <td><a href="/Guias/ObtenerInfoMovimiento.md"><i>ObtenerInfoMovimiento</i></a></td>
     <td><b>POST</b></td>
     <td>/ObtenerInfoMovimiento</td>
     <td>Obtiene toda la informacion de un comprobante en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ObtenerInfoMovimientosPorNroFactura</i></td>
+    <td><a href="/Guias/ObtenerInfoMovimientosPorNroFactura.md"><i>ObtenerInfoMovimientosPorNroFactura</i></a></td>
     <td><b>POST</b></td>
     <td>/ObtenerInfoMovimientosPorNroFactura</td>
     <td>Obtiene la informacion del comprobante por medio del numero de la factura en Tango factura.</td>
