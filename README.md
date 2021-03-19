@@ -128,19 +128,19 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Obtiene la informacion del comprobante por medio del numero de la factura en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>AutorizarMovimiento</i></td>
+    <td><a href="/Guias/AutorizarMovimiento.md"><i>AutorizarMovimiento</i></a></td>
     <td><b></b></td>
     <td>/AutorizarMovimiento</td>
     <td>Primero busca el movimieto y si lo encuentra intenta autorizarlo</td>
   </tr>
   <tr>
-    <td><i>CrearCliente</i></td>
+    <td><a href="/Guias/CrearCliente.md"><i>CrearCliente</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearCliente</td>
     <td>Crea a un cliente en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>CrearLoteClientes</i></td>
+    <td><a href="/Guias/CrearLoteClientes.md"><i>CrearLoteClientes</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearLoteClientes</td>
     <td>Crea una lista de clientes en Tango factura.</td>
