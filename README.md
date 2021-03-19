@@ -146,13 +146,13 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Crea una lista de clientes en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ModificarCliente</i></td>
+    <td><a href="/Guias/ModificarCliente.md"></a><i>ModificarCliente</i></td>
     <td><b>POST</b></td>
     <td>/ModificarCliente</td>
     <td>Modifica los datos del cliente en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarClientes</i></td>
+    <td><a href="/Guias/ListarClientes.md"><i>ListarClientes</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarClientes</td>
     <td>Obtiene la lista de clientes existentes en Tango factura.</td>
