@@ -194,43 +194,43 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Modifica los datos del producto o servicio.</td>
   </tr>
   <tr>
-    <td><i>ListarProductos</i></td>
+    <td><a href="/Guias/ListarProductos.md"><i>ListarProductos</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarProductos</td>
     <td>Permite obtener los productos de Tango factura.</td>
   </tr>
   <tr>
-    <td><i>CrearLoteProductos</i></td>
+    <td><a href="/Guias/CrearLoteProductos.md"><i>CrearLoteProductos</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearLoteProductos</td>
     <td>Crea un lote de productos en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarImpuestosIIBB</i></td>
+    <td><a href="/Guias/ListarImpuestosIIBB.md"><i>ListarImpuestosIIBB</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarImpuestosIIBB</td>
     <td>Obtiene una lista de ingreso bruto en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarImpuestos</i></td>
+    <td><a href="/Guias/ListarImpuestos.md"><i>ListarImpuestos</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarImpuestos</td>
     <td>Obtiene una lista de impuestos en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarEstados</i></td>
+    <td><a href="/Guias/ListarEstados.md"><i>ListarEstados</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarEstados</td>
     <td>Obtiene una lista de estados posibles de los comprobantes de Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarCategoriasImpositivas</i></td>
+    <td><a href="/Guias/ListarCategoriasImpositivas.md"><i>ListarCategoriasImpositivas</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarCategoriasImpositivas</td>
     <td>Obtiene una listas de categoria impositiva posibles de los comprobantes de Tango factura.</td>
   </tr>
   <tr>
-    <td><i>EnviarComprobanteElectronico</i></td>
+    <td><a href="/Guias/EnviarComprobanteElectronico.md"><i>EnviarComprobanteElectronico</i></a></td>
     <td><b>POST</b></td>
     <td>/EnviarComprobanteElectronico</td>
     <td>Envía el comprobante electrónico indicado por mail.</td>
