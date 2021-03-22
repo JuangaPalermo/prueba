@@ -69,7 +69,7 @@ https://www.tangofactura.com/Factura/CrearCredito
 </tr>
 <tr>
   <td>DepositoID</td>
-  <td>-/td>
+  <td>-</td>
   <td>int</td>
   <td>-</td>
   <td>-</td>

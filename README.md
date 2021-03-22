@@ -176,19 +176,19 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Obtiene una lista de provincias en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ObtenerDatosContribuyente</i></td>
+    <td><a href="/Guias/ObtenerDatosContribuyente.md"><i>ObtenerDatosContribuyente</i></a></td>
     <td><b>POST</b></td>
     <td>/ObtenerDatosContribuyente</td>
     <td>Obtiene los datos del contribuyente en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>CrearProducto</i></td>
+    <td><a href="/Guias/CrearProducto.md"><i>CrearProducto</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearProducto</td>
     <td>Crea un producto en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ModificarProducto</i></td>
+    <td><a href="/Guias/ModificarProducto.md"><i>ModificarProducto</i></a></td>
     <td><b>POST</b></td>
     <td>/ModificarProducto</td>
     <td>Modifica los datos del producto o servicio.</td>
