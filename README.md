@@ -236,37 +236,37 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Envía el comprobante electrónico indicado por mail.</td>
   </tr>
   <tr>
-    <td><i>ObtenerUID</i></td>
+    <td><a href="/Guias/ObtenerUID.md"><i>ObtenerUID</i></a></td>
     <td><b>POST</b></td>
     <td>/ObtenerUID</td>
     <td>Obtiene el identificador de usuario en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>CrearEmpresa</i></td>
+    <td><a href="/Guias/CrearEmpresa.md"><i>CrearEmpresa</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearEmpresa</td>
     <td>Crea una empresa en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarPuntosVenta</i></td>
+    <td><a href="/Guias/ListarPuntosVenta.md"><i>ListarPuntosVenta</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarPuntosVenta</td>
     <td>Obtiene una lista de puntos de venta en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>CrearPuntoVenta</i></td>
+    <td><a href="/Guias/CrearPuntoVenta.md"><i>CrearPuntoVenta</i></a></td>
     <td><b>POST</b></td>
     <td>/CrearPuntoVenta</td>
     <td>Crea un de punto de venta en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarPerfilesFacturacion</i></td>
+    <td><a href="/Guias/ListarPerfilesFacturacion.md"><i>ListarPerfilesFacturacion</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarPerfilesFacturacion</td>
     <td>Lista los IDs de los perfiles de facturación dados de alta por el usuario en Tango factura</td>
   </tr>
   <tr>
-    <td><i>ObtenerConfiguracionEmpresa</i></td>
+    <td><a href="/Guias/ObtenerConfiguracionEmpresa.md"><i>ObtenerConfiguracionEmpresa</i></a></td>
     <td><b>POST</b></td>
     <td>/ObtenerConfiguracionEmpresa</td>
     <td>Obtiene la configuracion de una empresa en Tango factura.</td>
