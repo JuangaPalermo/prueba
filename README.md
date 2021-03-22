@@ -146,7 +146,7 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Crea una lista de clientes en Tango factura.</td>
   </tr>
   <tr>
-    <td><a href="/Guias/ModificarCliente.md"></a><i>ModificarCliente</i></td>
+    <td><a href="/Guias/ModificarCliente.md"><i>ModificarCliente</i></a></td>
     <td><b>POST</b></td>
     <td>/ModificarCliente</td>
     <td>Modifica los datos del cliente en Tango factura.</td>
@@ -158,19 +158,19 @@ Todas las URIs derivan de <i>https://www.tangofactura.com/Factura</i>
     <td>Obtiene la lista de clientes existentes en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarTiposDocumento</i></td>
+    <td><a href="/Guias/ListarTiposDocumento.md"><i>ListarTiposDocumento</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarTiposDocumento</td>
     <td>Listar tipos de documento existentes en Tango factura, conteniendo el codigo y la descricion del tipo de documento.</td>
   </tr>
   <tr>
-    <td><i>ObtenerCategoriaImpositivaEmpresa</i></td>
+    <td><a href="/Guias/ObtenerCategoriaImpositivaEmpresa.md"><i>ObtenerCategoriaImpositivaEmpresa</i></a></td>
     <td><b>POST</b></td>
     <td>/ObtenerCategoriaImpositivaEmpresa</td>
     <td>Obtiene la categoria impositiva de la empresa en Tango factura.</td>
   </tr>
   <tr>
-    <td><i>ListarProvincias</i></td>
+    <td><a href="/Guias/ListarProvincias.md"><i>ListarProvincias</i></a></td>
     <td><b>POST</b></td>
     <td>/ListarProvincias</td>
     <td>Obtiene una lista de provincias en Tango factura.</td>
